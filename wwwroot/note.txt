@@ -1,0 +1,14 @@
+     x   Sukurti naudotojo sąsajos sprendimą realizuotam REST API
+     x   Responsive layout (bent 1 breakpoint`as, pvz. ties 768px)
+     x   Images prisitaikymas (max-width taisyklė, kad paveikslėlis mažėtų neišlipdamas iš savo konteinerio elemento)
+     x   Header, Content, Footer srityse stilius turėtų būti skirtingas (specifiškas). Srityse turėtų būti bent po keletą skirtingų elementų. Analogiški elementai skirtingose srityse turėtų įgauti skirtingą išvaizdą.
+     x   Realizuoti informacijos įvedimo sąsają, bent su keletu skirtingų tipų input elementų.
+     x   Panaudoti transitions arba animacijas, pagyvinančius naudotojo sąsają (UI)
+        Padarytas responsive meniu (desktop: horizontalūs punktai, mobile: hamburger)
+     x   Panaudoti vektorines ikonas (webfont, svg).
+     x   Panaudotas kitoks šriftas (google fonts arba savo sugeneruotas)
+     x   Panaudoti modalinį langą, kuriame pateikiama aktuali/prasminga informacija.
+     x   Parinkti tarpusavyje besiderinančias spalvas.
+        UI elementai negali išsimėtyti, išdėstymas turi paklusti tinklelio horizontalioms ir vertikalioms linijoms.
+        Elementų matomumas ir pasiekiamumas neturi būti apsunkintas.
+     x   Įvedimo formos turi būti aiškios ir nuoseklios.

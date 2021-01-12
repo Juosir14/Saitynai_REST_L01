@@ -1,0 +1,124 @@
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
+
+/* langar-regular - latin */
+@font-face {
+    font-family: 'Langar';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/langar-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/langar-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/langar-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/langar-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/langar-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/langar-v11-latin-regular.svg#Langar') format('svg'); /* Legacy iOS */
+  }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(48, 51, 48);
+    color: white;
+  }
+
+  footer p a{
+    color: white;
+  }
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Langar';
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/back2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    max-width: 20vw;
+    height: auto;
+    margin-top: 10px;
+}
+
+.main{
+   
+    margin: auto;
+    
+}
+ 
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    text-align: initial;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    font-family: 'Langar', cursive;
+    color: #fff;
+    font-size: 60px;
+}

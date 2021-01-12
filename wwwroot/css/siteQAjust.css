@@ -1,0 +1,240 @@
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+
+/*kai didelis*/
+@media all and (min-width: 768px)
+{
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Langar';
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.main{
+   
+    margin: auto;
+    
+}
+ 
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: initial;
+    transform: translate(-50%, -50%);    
+}
+
+.title{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.2vw;
+    
+
+}
+
+p{
+    font-size: 1.2vw;
+
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+}
+
+
+
+
+
+
+
+
+/*kai mazas*/
+@media all and (max-width: 769px)
+{
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Langar';
+}
+@font-face {
+    font-family: sansation;
+    src: url(sansation_light.woff);
+  }
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    font-size: 1.5vw;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 18px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 1.5vw;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    max-width: 20vw;
+    margin-top: 10px;
+}
+
+.main{
+   
+    margin: auto;
+    
+}
+ 
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    text-align: initial;
+    transform: translate(-50%, -50%);    
+}
+
+.title{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.6vw;
+    min-height: 600px;
+
+}
+
+p{
+    font-size: 1.6vw;
+
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+}

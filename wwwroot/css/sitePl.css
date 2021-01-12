@@ -1,0 +1,333 @@
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+    background-color: #28d12e; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+p1{
+    font-size: 1.6vw;
+
+    font-style: italic;
+    color: rgb(24, 18, 18);
+    text-shadow: 2px 2px 4px #dbd3d3;
+}
+.container {
+    height: 50px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: left;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align: left;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+  }
+
+.boxai {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+      margin: 0 auto;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+  }
+
+
+  
+  
+  .boxai:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+
+.add{
+    text-align: center;
+}
+
+.edit{
+    text-align: center;
+}
+
+
+table {
+    margin-left: auto;
+     margin-right: auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  tr:nth-child(odd){background-color: #b1ecac}
+
+  th {
+    background-color: #018806;
+    color: white;
+  }
+
+/*kai didelis*/
+@media all and (min-width: 768px)
+{
+
+#editForm {
+    display: none;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Langar';
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.main{
+   
+    margin: auto;
+    
+}
+ 
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: initial;
+    transform: translate(-50%, -50%);    
+}
+
+.title{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.2vw;
+    
+
+}
+
+p{
+    font-size: 1.6vw;
+
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+}
+
+
+
+
+
+
+
+
+/*kai mazas*/
+@media all and (max-width: 769px)
+{
+
+#editForm {
+    display: none;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Langar';
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    font-size: 1.5vw;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 18px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 1.5vw;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    max-width: 20vw;
+    margin-top: 10px;
+}
+
+.main{
+   
+    margin: auto;
+    
+}
+ 
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    text-align: initial;
+    transform: translate(-50%, -50%);    
+}
+
+.title{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.6vw;
+    min-height: 600px;
+
+}
+
+p{
+    font-size: 2vw;
+
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+}
