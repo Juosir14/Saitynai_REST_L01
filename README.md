@@ -8,3 +8,11 @@ Veikimo principas – vartotojas prisijungęs į puslapį galės peržiūrėti �
 * Serverio pusė (angl. Back-End) – .NET Core 3.1 MVC REST API. 
 * Duomenų bazė – Microsoft Azure Database.
 
+# Home puslapis
+
+![home](https://github.com/Juosir14/Saitynai_REST_L01/blob/main/home.png)
+
+# Komandų peržiūra
+
+![commands](https://github.com/Juosir14/Saitynai_REST_L01/blob/main/commands.png)
+
